@@ -14,6 +14,7 @@
 		92192CF12BF7D06500D230D2 /* Todo_ListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92192CF02BF7D06500D230D2 /* Todo_ListTests.swift */; };
 		92192CFB2BF7D06500D230D2 /* Todo_ListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92192CFA2BF7D06500D230D2 /* Todo_ListUITests.swift */; };
 		92192CFD2BF7D06500D230D2 /* Todo_ListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92192CFC2BF7D06500D230D2 /* Todo_ListUITestsLaunchTests.swift */; };
+		92192D0A2BF7D22F00D230D2 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92192D092BF7D22F00D230D2 /* Item.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		92192CF62BF7D06500D230D2 /* Todo ListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Todo ListUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		92192CFA2BF7D06500D230D2 /* Todo_ListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo_ListUITests.swift; sourceTree = "<group>"; };
 		92192CFC2BF7D06500D230D2 /* Todo_ListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo_ListUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		92192D092BF7D22F00D230D2 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				92192CE12BF7D06400D230D2 /* ContentView.swift */,
 				92192CE32BF7D06400D230D2 /* Assets.xcassets */,
 				92192CE52BF7D06400D230D2 /* Preview Content */,
+				92192D092BF7D22F00D230D2 /* Item.swift */,
 			);
 			path = "Todo List";
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				92192CE22BF7D06400D230D2 /* ContentView.swift in Sources */,
+				92192D0A2BF7D22F00D230D2 /* Item.swift in Sources */,
 				92192CE02BF7D06400D230D2 /* Todo_ListApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
